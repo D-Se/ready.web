@@ -19,7 +19,7 @@ The package and website are currently **under construction :construction:**.
 1. Install all necessary dependencies
 
    ```r
-   remotes::install_github("D-Se/ready", dependencies = TRUE)
+   remotes::install_github("D-Se/ready.web", dependencies = TRUE)
    ```
 1. Install [quarto](https://quarto.org/docs/get-started/)
 
