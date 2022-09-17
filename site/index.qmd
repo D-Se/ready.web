@@ -1,0 +1,157 @@
+---
+pagetitle: "Ready"
+page-layout: custom
+section-divs: false
+toc: false
+css: aes/index.css
+editor: source
+description: | 
+  Learn about R.
+image: /images/hero_right.png
+---
+
+::: {.hero-banner}
+
+::: {.hero-image .hero-image-left}
+![](images/hero_left.png){fig-alt="Stack of three printed articles with text, code, and graphics."}
+:::
+
+::: {.content-block}
+
+<center>
+# Ready?
+</center>
+
+### Explore and learn how to use ![](images/R-logo.svg){width="35"} to solve problems.
+
+- Introduction to R  
+- Problem solving approaches  
+- Learn about programming practices  
+
+::: {.hero-buttons}
+[Downloads](docs/downloads/index.html){.btn-action-primary .btn-action .btn .btn-success .btn-lg role="button"}
+[Guide](docs/guide/index.html){#btn-guide .btn-action .btn .btn-info .btn-lg role="button"}
+::: 
+
+:::
+
+::: {.hero-image .hero-image-right}
+![](images/hero_right.png){fig-alt="Stack of three printed articles with text, code, and graphics."}
+:::
+
+:::
+
+
+::: {.hello-quarto .alt-background}
+::: {.content-block}
+
+::: {.hello-quarto-banner}
+# Portal 
+<ul class="nav nav-pills" id="hello-quarto-tab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <button class="nav-link active" id="beginner-tab" data-bs-toggle="tab" data-bs-target="#beginner" type="button" role="tab" aria-controls="beginner" aria-selected="true">Beginner</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="experienced-tab" data-bs-toggle="tab" data-bs-target="#experienced" type="button" role="tab" aria-controls="experienced" aria-selected="false">Experienced</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="transfer-tab" data-bs-toggle="tab" data-bs-target="#transfer" type="button" role="tab" aria-controls="transfer" aria-selected="false">Transfer</button>
+  </li>
+</ul>
+:::
+
+<div class="tab-content" id="hello-quarto-tabcontent">
+
+<div class="tab-pane fade  show active" id="beginner" role="tabpanel" aria-labelledby="beginner-tab">
+
+:::: {.columns}
+::: {.column width="30%"}
+- What is R anyway?  
+- An error. Now what? 
+:::
+::: {.column width="70%"}
+- Huh?  
+- What?  
+:::
+::::
+
+::: {.grid}
+::: {.g-col-lg-6 .g-col-12}
+````
+```{{r}}
+put beginner stuff here
+```
+````
+:::
+::: {.hello-output .g-col-lg-6 .g-col-12}
+some output
+:::
+:::
+
+</div>
+
+<div class="tab-pane fade" id="experienced" role="tabpanel" aria-labelledby="experienced-tab">
+
+- What are closures?  
+- Scalable pipelines?  
+
+::: {.grid}
+::: {.g-col-lg-6 .g-col-12}
+````
+```{{r}}
+put experienced stuff here
+```
+````
+:::
+
+::: {.hello-output .g-col-lg-6 .g-col-12}
+some output
+:::
+:::
+
+</div>
+
+<div class="tab-pane fade" id="transfer" role="tabpanel" aria-labelledby="transfer-tab">
+
+Combine markdown and Julia code to create dynamic documents that are fully reproducible. Quarto executes Julia code via the [IJulia](https://github.com/JuliaLang/IJulia.jl) Jupyter kernel, enabling you to author in plain text (as shown below) or render existing Jupyter notebooks.
+
+::: {.grid}
+::: {.g-col-lg-6 .g-col-12}
+````
+```{{r}}
+put transfers from other language stuff here
+```
+````
+:::
+
+::: {.hello-output .g-col-lg-6 .g-col-12}
+some output
+:::
+:::
+
+</div>
+
+</div>
+
+
+
+::: {.grid}
+
+
+:::
+:::
+:::
+
+
+
+::: {.get-started .alt-background}
+::: {.content-block}
+
+### Analyze. Share. Reproduce. Your data has a story---tell it with Quarto.
+
+[Get Started](docs/downloads/index.html){.btn-action-primary  .btn-action .btn .btn-success .btn-lg role="button"}
+
+:::
+:::
+
+<iframe width='100%' height='300' src='https://rdrr.io/snippets/embed/' frameborder='0'></iframe>

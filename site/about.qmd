@@ -1,0 +1,36 @@
+---
+title: "About Ready"
+subtitle: "Learn R and its ecosystem of tools"
+---
+
+## Goals
+
+Learn about R.
+
+## Contribute
+
+You can contribute to this project
+
+-   By opening issues to provide feedback and share ideas
+-   By submitting Pull Request (PR) to fix opened issues
+-   By submitting Pull Request (PR) to suggest new features
+
+### Pull Requests {.unlisted}
+
+Pull requests are very welcome! Here's how to contribute via PR:
+
+1.  [Fork](https://github.com/D-Se/ready/fork) the repository, clone it locally, and make your changes in a new branch specific to the PR. For example:
+
+    ``` {.bash filename="Terminal"}
+    # clone your fork
+    $ git clone https://github.com/<username>/quarto-cli
+
+    # configure for your platform (./configure.sh or ./configure.cmd for windows)
+    $ cd quarto-cli
+    $ ./configure.sh
+
+    # checkout a new branch
+    $ git checkout -b feature/newthing
+    ```
+
+We'll try to be as responsive as possible in reviewing and accepting pull requests.

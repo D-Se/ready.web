@@ -1,0 +1,59 @@
+---
+title: "External tools"
+subtitle: "Tools"
+format:
+  html:
+    include-in-header: 
+      - '_download.html'
+    include-after-body: 
+      text: |
+        <script type="text/javascript">
+        window['quarto-download-release'] = true;
+        window['quarto-download-nonews'] = true;
+        </script>      
+page-layout: full
+css: ../../aes/downloads.css
+toc: false
+anchor-sections: false
+editor: source
+aliases:
+  - /docs/getting-started/installation.html
+#image: /images/hero_right.png
+---
+
+## R
+
+[placeholder link]()
+
+## Code editors {.fw-light}
+
+::: {.tool .g-col-lg-9 .g-col-12}
+
+blabla1  
+
+<a href="https://www.rstudio.com/products/rstudio/download/#download" role="button" class="btn btn-outline-light">
+![](../../images/rstudio-logo.png){width="77" fig-alt="RStudio logo."}RStudio
+</a>
+
+blabla2  
+
+<a href="https://code.visualstudio.com/download" role="button" class="btn btn-outline-light">
+![](../../images/vscode-logo.png){width="77" fig-alt="VS Code logo."}VS Code
+</a>
+
+blabla3  
+
+<a href="https://jupyter.org/install" role="button" class="btn btn-outline-light">
+![](../../images/jupyter-logo.png){width="77" fig-alt="Jupyter logo."}Jupyter
+</a>
+
+:::
+
+## Development tools
+
+::: {.tool .g-col-lg-9 .g-col-12}
+R tools is something  
+<a href="https://cran.r-project.org/bin/windows/Rtools/rtools42/files/" role="button" class="btn btn-outline-light">R tools
+</a>
+
+:::

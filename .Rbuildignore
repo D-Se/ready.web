@@ -1,0 +1,8 @@
+^LICENSE\.md$
+^Makefile
+^book
+.Rproj$
+^.*\.Rproj$
+^\.Rproj\.user$
+.quarto
+^site$

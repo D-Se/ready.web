@@ -1,0 +1,79 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Ready"
+  image: "images/quarto.png"
+  favicon: "favicon.png"
+  #google-analytics: "G-FV9Z7SDZ0M"
+  open-graph: true
+  twitter-card: true
+  #site-url: https://quarto.org
+  repo-url: https://github.com/D-se/ready
+  repo-subdir: site
+  repo-actions: [edit, issue]
+  page-navigation: true
+  
+  navbar:
+    background: light
+    logo: "images/quarto.png"
+    logo-alt: "logo."
+    title: false
+    collapse-below: lg
+    left:
+      #- text: "Downloads"
+        #href: docs/get-started/index.qmd
+      - text: "Downloads"
+        href: docs/downloads/index.qmd
+      - text: "Guide"
+        href: docs/guide/index.qmd
+      - text: "Gallery"
+        href: docs/gallery/index.qmd
+      - text: "Help"
+        menu:
+          - text: "Report a Bug"
+            icon: "bug"
+            href: "https://github.com/D-Se/ready/issues"
+          - text: "Ask a Question"
+            icon: "chat-right-text"
+            href: "https://github.com/D-Se/ready/discussions"
+    right:
+      - icon: github
+        href: https://github.com/D-Se/ready
+        aria-label: Quarto GitHub
+
+  sidebar:
+    - id: guide
+      collapse-level: 1
+      style: "docked"
+      contents:
+        - text: "Guide"
+          href: docs/guide/index.qmd
+        - section: "Authoring"
+          contents:
+            - docs/authoring/markdown-basics.qmd
+  page-footer:
+    left: "Written by Donald Seinen"
+    center:
+      - text: "About"
+        href: about.qmd
+    right:
+      - icon: github
+        href: https://github.com/D-Se/ready
+        aria-label: Donald Github
+            
+bibliography: references.bib
+
+format:
+  html:
+    toc: true
+    theme:
+      light: [flatly, aes/custom.scss]
+      dark: [darkly, aes/custom.scss]
+    code-copy: true
+    code-overflow: wrap
+    css: aes/styles.css
+    include-after-body: js.html
+
+#editor: visual

@@ -1,0 +1,12 @@
+  
+- title: Authoring
+  subtitle: Create content with markdown 
+  links:
+    - text: Markdown Basics
+      #href: ../authoring/markdown-basics.qmd
+
+- title: Computations
+  subtitle: Execute code and display its output
+  links:
+    - text: "Using R"
+      #href: ../computations/r.qmd

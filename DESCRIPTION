@@ -1,0 +1,22 @@
+Package: ready-web
+Title: Guide to using R
+Version: 0.0.0.9000
+Authors@R: 
+    c(person(given = "Donald",
+             family = "Seinen",
+             role = c("aut", "cre"),
+             email = "2869830202@qq.com",
+             comment = c(ORCID = "0000-0002-4343-5851"))
+  )
+Description: Low noise low-level R materials.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
+Imports: 
+    cranlogs,
+    data.table (>= 1.14.2),
+    rprojroot (>= 2.0.3),
+    stringi (>= 1.7.8)
+URL: https://github.com/D-Se/ready
+BugReports: https://github.com/D-Se/ready/issues
